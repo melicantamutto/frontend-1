@@ -1,0 +1,85 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main styles */
+.main-container{
+    padding:7.31rem 12.5rem 10.18rem;
+}
+
+/* Header image container */
+.header-img-container {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding: 1.31rem;
+}
+
+/* Common styles titles */
+h1,h2{
+    font-weight: 700;
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 10px;
+
+}
+
+/* Main header title */
+h1 {
+    font-size: 35px;
+    line-height: 29.64px;
+    text-align: center;
+    padding: 0.93rem;
+}
+
+/* Secondary headers ~ sections  */
+h2 {
+    font-size: 20px;
+    line-height: 16.94px;
+    padding: 0.37rem 0.56rem;
+    text-transform: uppercase;
+    margin: 1.87rem 0 1.18rem;
+}
+
+/* List styles */
+.item-date, .item-name{
+    font-weight: 700;
+    line-height: 12.7px;
+}
+
+.item-name{
+    font-style: italic;
+}
+
+ul, dl{
+    padding-left: 3.06rem;
+}
+
+dd,li{
+    font-size: 0.93rem;
+    line-height: 16.68px;
+    margin-bottom: 0.62rem;
+}
+
+.footer-container{
+    background-color: #005677;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 16.94px;
+    font-size: 1.25rem;
+}
+.footer-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
