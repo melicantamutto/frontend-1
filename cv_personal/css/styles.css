@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style: square;
+}
+
+a{
+    text-decoration: none;
+    color: #eee0e4;
+}
+
+/* Header image container */
+.header-container {
+    background-color: #E5E5E5;
+    padding: 1.31rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img{
+    height: 10rem;
+    margin-right: 1rem;
+    border-radius: 100px;
+}
+
+/* Common styles titles */
+.header-title-container{
+    background-color: #5f5959;
+    color: #eee0e4;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+}
+h1,h2{
+    font-weight: 700;
+    letter-spacing: 10px;
+    line-height: 1.5em;
+}
+
+/* Main styles */
+.main-container{
+    padding:4rem 12.5rem;
+}
+
+.main-container > section{
+    padding: 1rem 15rem;
+}
+.main-section{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding:0.2rem 1rem 0.7rem;
+}
+
+/* Main header title */
+h1 {
+    font-size: 35px;
+    line-height: 29.64px;
+    text-align: center;
+    padding: 0.93rem;
+}
+
+/* Secondary headers ~ sections  */
+h2 {
+    font-size: 20px;
+    line-height: 16.94px;
+    padding: 0.37rem 0.56rem;
+    text-transform: uppercase;
+    margin: 1.87rem 0 1.18rem;
+}
+
+/* List styles */
+.item-date, .item-name{
+    font-weight: 700;
+    line-height: 12.7px;
+}
+
+.item-name{
+    font-style: italic;
+}
+
+ul, dl{
+    padding-left: 3.06rem;
+}
+
+dd,li{
+    font-size: 0.93rem;
+    line-height: 16.68px;
+    margin-bottom: 0.62rem;
+}
+dd{
+    margin-top: -0.93rem;
+    padding-left: 6rem;
+}
+.dd-name{
+    color: #391F1C;
+}
+
+/* Footer */
+.footer-container{
+    background-color: #5f5959;
+    color: #eee0e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 16.94px;
+    font-size: 1.25rem;
+    padding: 1rem 0;
+}
+.footer-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+.footer-container ul li{
+    margin: auto;
+}
+.footer-icon{
+    font-size: 2rem;
+}

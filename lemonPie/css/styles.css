@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Playfair+Display:ital,wght@1,700&display=swap');
+
+/* General */
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.banner {
+    background: wheat url("../img/lemon_pie.svg") no-repeat fixed 0 center;
+    background-size: cover;
+    filter: grayscale(40%);
+    height: 50rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ccc;
+}
