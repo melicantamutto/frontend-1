@@ -3,7 +3,12 @@
 ___Hola! Estos son mis proyectos de FrontEnd I de la carrera Certified Tech Developer___
 
 ***
+* ## Modelo de cajas 
 
+__⭐ Superheroes ~ <a href="https://melicantamutto.github.io/frontend-1/heroes/" target="_blank">Link de la página</a>
+ ~ <a href="https://github.com/melicantamutto/frontend-1/tree/main/heroes" target="_blank">Link del repositorio</a>__
+
+_Proyecto en el que realizamos un maquetado semántico de una página con cards de superheroes con HTML5 y le dimos estilos con CSS, usando las posiciones del modelo de cajas._
 * ## Estilos en CSS 
 
 __⭐ CV Personal ~ <a href="https://melicantamutto.github.io/frontend-1/cv_personal/" target="_blank">Link de la página</a>
