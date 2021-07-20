@@ -21,13 +21,22 @@ ul {
 }
 
 /* Main */
+
+main{
+    color: #444;
+}
 h1 {
     font-size: 3rem;
     font-weight: 700;
 }
 
 h2 {
+    font-weight: 700;
     font-size: 1.5rem;
+}
+
+h2>i{
+    margin-right: 0.5rem;
 }
 
 h3 {
@@ -48,8 +57,23 @@ h3 {
     align-items: flex-end;
 }
 
+.banner-text{
+    background-color: rgba(0,0,0, 0.45);
+    padding: 1rem;
+    border-radius: 5px;
+}
+p.banner-text{
+    line-height: 19.36px;
+}
+
+.external-link{
+    color: rgb(247, 160, 124);
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     text-align: center;
     background-color: #ccc;
+    color: #444;
 }

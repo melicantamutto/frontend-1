@@ -11,7 +11,7 @@ body {
 
 /* Main styles */
 .main-container{
-    padding:7.31rem 12.5rem 10.18rem;
+    padding:7.31rem 12.5rem;
 }
 
 /* Header image container */
@@ -51,6 +51,7 @@ h2 {
 .item-date, .item-name{
     font-weight: 700;
     line-height: 12.7px;
+    font-size: 0.93rem;
 }
 
 .item-name{
@@ -66,6 +67,12 @@ dd,li{
     line-height: 16.68px;
     margin-bottom: 0.62rem;
 }
+dd{
+    padding-left: 4.7rem;
+    margin: .5em 0 1.5em;
+}
+
+/* Footer */
 
 .footer-container{
     background-color: #005677;
@@ -76,10 +83,18 @@ dd,li{
     font-weight: 700;
     line-height: 16.94px;
     font-size: 1.25rem;
+    padding: 1rem 0;
 }
 .footer-container ul{
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 10%;
+}
+.footer-container ul li{
+    margin: auto;
+}
+.footer-icon{
+    width: 1.75rem;
 }
