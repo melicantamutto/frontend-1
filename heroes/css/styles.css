@@ -23,23 +23,23 @@ a{
 
 .top-header{
     background-color: #1CD1B0;
-    height: 38px;
+    height: 2,37rem;
     display: flex;
     align-items: center;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 0.93rem;
+    padding: 0.62rem;
 }
 
 header{
     background-color: #00669F;
-    height: 101px;
+    height: 6.31rem;
     display: flex;
     align-items: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     position: sticky;
     top: 0;
-    padding:28px;
+    padding:1.75rem;
 }
 
 /* Main */
@@ -52,16 +52,16 @@ main{
 }
 
 .card{
-    width: 300px;
-    height: 529px;
-    margin: 15px;
+    width: 18.75rem;
+    height: 33.06rem;
+    margin: 0.93rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .card-img{
-    height: 193px;
-    padding: 15px 21px;
-    font-size: 26px;
+    height: 12.06rem;
+    padding: 0.93rem 1.31rem;
+    font-size: 1.62;
 }
 
 .card-1 .card-img{
@@ -77,38 +77,38 @@ main{
 }
 
 .card-content{
-    height: 336px;
+    height: 21rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
     background-color: #F3F3F3;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .card-content h2{
-    margin-top: 74px;
-    font-size: 30px;
+    margin-top: 4.62rem;
+    font-size: 1.87rem;
 }
 
 .card-content p{
-    margin: 10px 0 37px;
+    margin: 0.62rem 0 2.31rem;
 }
 
 .card-user-img{
     position: absolute;
     top: -60px;
     border-radius: 100px;
-    width: 120px;
+    width: 7.5rem;
 }
 
 .card-button{
     background-color: #00669F;
-    padding: 15px 37px;
+    padding: 0.93rem 2.31rem;
     color: white;
-    font-size: 15px;
-    margin-bottom: 18.8px;
+    font-size: 0.93rem;
+    margin-bottom: 1.17rem;
 }
 
 
@@ -119,6 +119,6 @@ footer{
     display: flex;
     align-items: center;
     font-size: 1rem;
-    height: 51px;
+    height: 3.18rem;
     padding: 1rem;
 }
