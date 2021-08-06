@@ -1,115 +1,222 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PetShop</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="mini-nav-bar-container">
+      <div class="mini-nav-bar">
+        <div class="page-container">
+          <div class="mini-nav-bar-container">
             <p class="mini-nav-bar-title">Grandes ofertas en comederos</p>
-            <ul class="mini-nav-bar-links-container">
-                <li class="mini-nav-bar-link-container">Español <i class="fas fa-chevron-down"></i></li>
-                <li class="mini-nav-bar-link-container">ARG$ <i class="fas fa-chevron-down"></i></li>
-            </ul>
+            <div class="mini-nav-bar-options-container">
+              <div>
+                <label for="page-language"></label>
+                <select name="language" id="page-language">
+                  <option value="ES">Español</option>
+                  <option value="EN">English</option>
+                </select>
+              </div>
+              <div>
+                <label for="page-currency"></label>
+                <select name="currency" id="page-currency">
+                  <option value="ARG">ARG$</option>
+                  <option value="USD">USD$</option>
+                </select>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="main-nav-bar-container">
-            <a class="main-nav-title-container" href="#">
-                <img class="main-nav-title-img" src="img/Cat.svg" alt="Gato">
-                <h1 class="main-nav-title">Front<span class="main-nav-title-span">Cat&Dog</span></h1>
-                <img class="main-nav-title-img" src="img/Dog.svg" alt="Gato">
+      </div>
+      <div class="main-nav-bar">
+        <div class="page-container">
+          <div class="main-nav-bar-container">
+            <a class="page-title-container" href="#">
+              <img class="page-title-img" src="img/Cat.svg" alt="Gato" />
+              <h1 class="page-title">
+                Front<span class="page-title-span">Cat&Dog</span>
+              </h1>
+              <img class="page-title-img" src="img/Dog.svg" alt="Gato" />
             </a>
             <nav class="main-nav-bar">
-                <ul class="main-nav-bar-list">
-                    <li class="main-nav-bar-item">
-                        <a href="#categorias">
-                            <i class="fas fa-paw main-nav-icon"></i>
-                            Categorias
-                        </a>
-                    </li>
-                    <li class="main-nav-bar-item">
-                        <a href="#pets">
-                            <i class="fas fa-paw main-nav-icon"></i>
-                            Pets
-                        </a>
-                    </li>
-                    <li class="main-nav-bar-item">
-                        <a href="#nosotros">
-                            <i class="fas fa-paw main-nav-icon"></i>
-                            Nosotros
-                        </a>
-                    </li>
-                    <li class="main-nav-bar-item">
-                        <a href="#contactanos">
-                            <i class="fas fa-paw main-nav-icon"></i>
-                            Contactanos
-                        </a>
-                    </li>
-                </ul>
+              <ul class="main-nav-bar-list">
+                <li class="main-nav-bar-item">
+                  <a href="#categorias">
+                    <i class="fas fa-paw main-nav-icon"></i>
+                    Categorias
+                  </a>
+                </li>
+                <li class="main-nav-bar-item">
+                  <a href="#pets">
+                    <i class="fas fa-paw main-nav-icon"></i>
+                    Pets
+                  </a>
+                </li>
+                <li class="main-nav-bar-item">
+                  <a href="#nosotros">
+                    <i class="fas fa-paw main-nav-icon"></i>
+                    Nosotros
+                  </a>
+                </li>
+                <li class="main-nav-bar-item">
+                  <a href="#contactanos">
+                    <i class="fas fa-paw main-nav-icon"></i>
+                    Contactanos
+                  </a>
+                </li>
+              </ul>
             </nav>
+          </div>
         </div>
+      </div>
     </header>
     <main>
+      <div class="page-container">
         <section class="banner-container">
-            <div class="banner-text">
-                <p class="banner-title">¡Es un placer tenerte aquí</p>
-                <p>¡Comederos en descuento!</p>
-                <a class="banner-button" href="#">COMEDEROS</a>
-            </div>
+          <div class="banner-text">
+            <p class="banner-title">¡Es un placer tenerte aquí</p>
+            <p>¡Comederos en descuento!</p>
+            <a class="banner-button" href="#">COMEDEROS</a>
+          </div>
         </section>
         <section class="products-section-container">
-            <i class="fas fa-paw products-section-main-icon"></i>
-            <h2 class="products-section-title">Productos Destacados</h2>
-            <ul>
-                <li>
-                    <a href="#comederos">
-                        Comederos
-                        <span> - </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#accesorios">
-                        Accesorios
-                        <span> - </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#comida">
-                        Comida
-                    </a>
-                </li>
-            </ul>
+          <i class="fas fa-paw products-section-main-icon"></i>
+          <h2 class="products-section-title">Productos Destacados</h2>
+          <ul class="product-section-nav-container">
+            <li class="product-section-nav-item">
+              <a href="#comederos">
+                Comederos
+                <span> - </span>
+              </a>
+            </li>
+            <li class="product-section-nav-item">
+              <a href="#accesorios">
+                Accesorios
+                <span> - </span>
+              </a>
+            </li>
+            <li class="product-section-nav-item">
+              <a href="#comida"> Comida </a>
+            </li>
+          </ul>
         </section>
         <section class="product-cards-container">
-            <div class="product-card">
-                <img src="img/churrasquito.svg" alt="churrasquito">
-                <p>Jueguete churrasquito</p>
-                <p>$150</p>
-            </div>
-            <div class="product-card">
-                <img src="img/comedero.svg" alt="comedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </div>
-            <div class="product-card">
-                <img src="img/Huesito.svg" alt="huesitos">
-                <p>Jueguete Huesito</p>
-                <p>$650</p>
-            </div>
+          <div class="product-card">
+            <img src="img/churrasquito.svg" alt="churrasquito" />
+            <p>Jueguete churrasquito</p>
+            <p>$150</p>
+          </div>
+          <div class="product-card">
+            <img src="img/comedero.svg" alt="comedero" />
+            <p>Comedero para perro</p>
+            <p>$250</p>
+          </div>
+          <div class="product-card">
+            <img src="img/Huesito.svg" alt="huesitos" />
+            <p>Jueguete Huesito</p>
+            <p>$650</p>
+          </div>
         </section>
+        <section class="contact-container">
+          <form>
+            <fieldset>
+              <legend>Contáctanos</legend>
+              <div class="contact-input">
+                <label for="full-name">Nombre y Apellido</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  />
+                  <!-- placeholder="Nombre y Apellido" -->
+              </div>
+              <div class="contact-input">
+                <label for="email">Correo electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  />
+                  <!-- placeholder="Ingresá tu correo electrónico" -->
+              </div>
+              <div class="contact-input">
+                <label for="telephone">Teléfono</label>
+                <input
+                  type="tel"
+                  id="telephone"
+                  />
+                  <!-- placeholder="Ingresá tu teléfono" -->
+              </div>
+              <div class="contact-buttons">
+                <button class="contact-button" type="reset">Resetear</button>
+                <button class="contact-button" type="submit">Enviar</button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+        <section class="suscribe-container">
+          <p>Suscribíbete para más novedades</p>
+          <form>
+            <div class="suscribe-input">
+              <label for="suscribe-email">Teléfono</label>
+              <input
+                type="email"
+                id="suscribe-email"
+                placeholder="Ingresá tu correo electrónico"
+              />
+            </div>
+            <button class="suscribe-button" type="submit">Suscribirme</button>
+          </form>
+        </section>
+        <section class="local-info-container">
+          <div>
+            <div class="local-info-card">
+              <img src="./img/Icono(1).svg" alt="" />
+              <div>
+                <p>Localidad</p>
+                <p>Calle - provincia</p>
+              </div>
+            </div>
+            <div class="local-info-card">
+              <img src="./img/Icono.svg" alt="" />
+              <div>
+                <p>Teléfono</p>
+                <p>Número de teléfono</p>
+              </div>
+            </div>
+            <div class="local-info-card">
+              <img src="./img/Icono(2).svg" alt="" />
+              <div>
+                <p>Correo Electrónico</p>
+                <p>Dirección de correo</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="page-title-container" href="#">
+            <img class="page-title-img" src="img/Cat.svg" alt="Gato" />
+            <p class="page-title title-inverted">
+              Front<span class="page-title-span span-inverted">Cat&Dog</span>
+            </p>
+            <img class="page-title-img" src="img/Dog.svg" alt="Gato" />
+          </a>
+        </section>
+      </div>
     </main>
     <footer>
-        <hr>
-        <p align="center">Todos los derechos reservados Front End</p>
+      <div class="page-container">
+        <p>Todos los derechos reservados Front End</p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

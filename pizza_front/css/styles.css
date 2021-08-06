@@ -79,6 +79,10 @@ a {
     font-size: 1rem;
 }
 
+.nav-ham-icon {
+    display: none;
+}
+
 
 /* Main */
 
@@ -86,31 +90,35 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F3F3F3; 
+    background-color: #F3F3F3;
     flex-grow: 1;
 }
 
-.main-section{
+.main-section {
     width: 490px;
     height: 350px;
     border-radius: 10px;
     padding: 20px;
 }
-.main-section:last-of-type{
+
+.main-section:last-of-type {
     background-color: #fff;
     margin-left: 5px;
     padding: 26px 51px;
 
 }
-.main-section:last-of-type .main-title{
+
+.main-section:last-of-type .main-title {
     margin-bottom: 58px;
 }
 
 .main-banner {
     background-image: url('../img/delivery.svg');
+    background-size: cover;
+    background-position: center;
 }
 
-.main-title{
+.main-title {
     font-size: 24px;
     line-height: 28.13px;
 }
@@ -125,7 +133,7 @@ a {
     color: #222222;
 }
 
-.main-sub-section ol li{
+.main-sub-section ol li {
     margin: 0 5px;
 }
 
@@ -142,7 +150,7 @@ a {
 }
 
 /* No se por que la etiqueta a no me respeta los paddings en colmna, asi que se lo agregue a los li */
-.footer-nav li{
+.footer-nav li {
     padding: 6px;
 }
 
@@ -152,4 +160,39 @@ a {
 
 .footer-container p {
     font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        
+    }
+
+    .main-section {
+        margin: 1rem auto;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-section {
+        width: 96%;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .nav-ham-icon {
+        display: block;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+    .footer-nav {
+        margin-bottom: 1rem;
+    }
 }
