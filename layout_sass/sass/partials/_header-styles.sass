@@ -1,0 +1,18 @@
+header
+    width: 100%
+    @extend %row-between
+    ul
+        @extend %row-evenly
+        gap: $general-margin
+        list-style: none
+        @media screen and ($breakpoint-mobile)
+            display: none
+        a
+            padding: 1rem
+    .ham-icon
+        display: none
+        padding: 1rem
+        @media screen and ($breakpoint-mobile)
+            display: inline-block
+            color: black
+            font-size: 1rem

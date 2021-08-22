@@ -1,0 +1,79 @@
+@mixin give-flex($direction: row, $spacing: center, $align-value: center, $gap: 0) 
+    display: flex
+    flex-direction: $direction
+    justify-content: $spacing
+    align-items: $align-value
+    gap: $gap
+
+@mixin accent-square ($width, $font-size, $top)
+    position: relative
+    z-index: 1
+    &::before
+        content: ''
+        position: absolute
+        top: $top
+        left: 0
+        width: $width
+        height: $font-size / 1.4
+        background-color: $bg-primary
+        z-index: -1
+        
+
+
+@mixin a-button
+    background-color: $bg-primary
+    border: 1px dotted $shadow-color
+    padding: 1rem 1.5rem
+    border-radius: 5px
+    transition: all .2s
+    @media screen and ($breakpoint-mobile)
+        width: 100%
+    &:hover
+        box-shadow: $shadow-button
+        transform: scale(95%)
+        border: 1px solid $shadow-color
+
+
+@mixin paragraph ($p-color)
+    font-size: 1rem
+    color: $p-color
+    font-weight: 400
+
+
+@mixin main-title
+    font-size: $title-size
+    color: black
+    font-weight: 700
+    font-family: $title-font
+    line-height: $title-line-height
+    letter-spacing: $title-spacing
+    @include accent-square(225px, $title-size, -6px)
+    @media screen and ($breakpoint-mobile)
+        font-size: $title-size / 1.5
+        line-height: $title-line-height / 1.5
+
+
+@mixin icon ($border, $align)
+    width: 2rem
+    height: 2rem
+    text-align: center
+    line-height: $align
+    background-color: inherit
+    border: $border
+    border-radius: 100px
+    box-shadow: $shadow
+    &:hover
+       box-shadow: -10px 0px 5px 0px $bg-primary
+
+@mixin card
+    width: 30rem
+    min-height: 20rem
+    border-radius: 10px
+    @extend %column-start
+    background-color: $bg-secondary
+    padding: 1rem    
+    p:first-of-type
+        @include icon ($border-icon-card, 1.8)
+    @media screen and ($breakpoint-mobile)
+        width: 100%
+        min-height: fit-content

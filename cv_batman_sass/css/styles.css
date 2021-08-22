@@ -1,0 +1,113 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+  background-color: #C4C4C4;
+  color: #005677;
+  letter-spacing: 10px;
+}
+
+/* Header image container */
+.header-img-container {
+  background-color: #E5E5E5;
+  text-align: center;
+  padding: 1.31rem;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 29.64px;
+  text-align: center;
+  padding: 0.93rem;
+}
+
+/* Secondary headers ~ sections  */
+h2 {
+  font-size: 20px;
+  line-height: 16.94px;
+  padding: 0.37rem 0.56rem;
+  text-transform: uppercase;
+  margin: 1.87rem 0 1.18rem;
+}
+
+/* Main styles */
+.main-container {
+  padding: 7.31rem 12.5rem;
+}
+
+/* List styles */
+.item-name {
+  font-style: italic;
+}
+
+.item-name, .item-name .item-date {
+  font-weight: 700;
+  line-height: 12.7px;
+  font-size: 0.93rem;
+}
+
+ul, dl {
+  padding-left: 3.06rem;
+}
+
+dd {
+  padding-left: 4.7rem;
+  margin: .5em 0 1.5em;
+}
+
+dd dd, dd li {
+  font-size: 0.93rem;
+  line-height: 16.68px;
+  margin-bottom: 0.62rem;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #005677;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  line-height: 16.94px;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+
+.footer-container ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+.footer-container ul li {
+  margin: auto;
+}
+
+.footer-icon {
+  width: 1.75rem;
+}
+/*# sourceMappingURL=styles.css.map */

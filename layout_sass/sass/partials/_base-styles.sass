@@ -1,0 +1,24 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: $body-font
+
+html
+    @media screen and ($breakpoint-mobile)
+        font-size: 110% 
+
+body
+    max-width: $body-width
+    min-height: $body-height
+    margin: 0 auto
+    padding: 1rem 0
+    @include give-flex(column, space-between, center, 1rem)
+    @media screen and ($breakpoint-min-pc) 
+        padding: 1rem
+    
+
+a
+    color: inherit
+    text-decoration: none
+
